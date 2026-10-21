@@ -10,3 +10,23 @@ students = {
     "s09": {"name": "Rick", "group": "Python262", "grades": [12, 12, 12, 11, 12]},
     "s10": {"name": "Alice", "group": "CSharp263", "grades": [4, 3, 5]},
 }
+
+all_commands = {
+    "help": "Show all commands",
+    "exit": "Ends program",
+   "st": "Show all students data",
+}
+
+
+
+while True:
+    command = input("Enter command: ").split()
+    command = entered[0]
+    for key in all_commands.keys():
+        print(f"{key} - {all_commands[key]}")
+
+if command == "help":
+elif command: == "exit"
+     pass
+elif command == "st":
+    pass 
