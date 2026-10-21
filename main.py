@@ -27,6 +27,11 @@ while True:
 
 if command == "help":
 elif command: == "exit"
-     pass
+     print("Goodbye!")
+     break  
 elif command == "st":
-    pass 
+print("ID - Name - Group - Grades")
+for st_id in students.keys()
+print(f"{st_id} - {students{"name"}} - {"student"["group"]} - {grades_str} ")
+
+
